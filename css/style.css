@@ -518,6 +518,9 @@ h2,h1 {
 .roadmap-width {
   height: auto;
 }
+.roadmap h2 {
+  height: 66px;
+}
 .roadmap-width::after {
   content: "";
     display: block;
@@ -531,7 +534,7 @@ h2,h1 {
 }
 .roadmap::after {
   background-color: #fd823f;
-  height: 180px;
+  height: 190px;
 }
 .roadmap-width .content-roadmap::after{
   content: "";
