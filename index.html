@@ -30,22 +30,18 @@
           <span></span>
         </div>
         <div class="header_menu">
-          <ul>
+          <ul class="header_menu_ul">
             <li>
-              <ul class="header_menu_ul">
-                <li>
-                  <a href="#">¿Quién soy?</a>
-                </li>
-                <li>
-                  <a href="#">Estudios</a>
-                </li>
-                <li>
-                  <a href="#">Proyectos</a>
-                </li>
-              </ul>
+              <a href="#">¿Quién soy?</a>
             </li>
             <li>
-              <a href="#">
+              <a href="#">Estudios</a>
+            </li>
+            <li>
+              <a href="#">Proyectos</a>
+            </li>
+            <li>
+              <a href="#wrk-1">
                 <figure class="icon_language">
                   <img src="img/reino_unido-icon.jpg" alt="bandera reino unido">
                 </figure>
@@ -140,7 +136,7 @@
     </div>
   </section>
   <section class="gallery_timeline">
-    <div class="img-column">
+    <div class="img-column" id="wrk-1">
       <img src="img/disenio-stock.jpg" alt="">
       <div class="content-gallery">
         <p class="main-content-gallery">Asistencia al Producto Gráfico Interactivo</p>
@@ -152,21 +148,21 @@
         <p>Este contenido me da la capacidad de analizar y verificar si son buenas interfaces web para el usuario. Y poder darle una experiencia adecuada y satisfactoria.</p>
       </div>
     </div>
-    <div class="img-column">
+    <div class="img-column" id="wrk-2">
       <img src="img/rrss-stock.jpg" alt="">
       <div class="content-gallery">
         <p class="main-content-gallery">Community Manager y Editor Web</p>
         <p></p>
       </div>
     </div>
-    <div class="img-column">
+    <div class="img-column" id="wrk-3">
       <img src="img/frontend-stock.jpg" alt="">
       <div class="content-gallery">
         <p class="main-content-gallery">Desarrollador Front-End</p>
         <p></p>
       </div>
     </div>
-    <div class="img-column">
+    <div class="img-column" id="wrk-4">
       <img src="img/programacion-stock.jpg" alt="">
       <div class="content-gallery">
         <p class="main-content-gallery">Cursando Desarrollo de Aplicaciones con Tecnología Web</p>
@@ -271,7 +267,10 @@
     </section>
   </section>
     <script src="js/app.js"></script>
-
+<!-- Hacer Hover en móvil en icono de trabajos destacados (primer bloque apartado "Lenguajes de programacion" se sustituirá por "Trabajos destacados").
+Darle un <a> a estos enlaces. Enlazar con IDs de las imágenes haciendo como enlaces de landing.
+  En CSS mobile, expandir dándole un :hover a cada apartado... ???
+-->
 </body>
 
 </html>
